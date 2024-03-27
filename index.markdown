@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+welcome to talesofatimebeing, a place where I am trying to let all my thoughts go.
