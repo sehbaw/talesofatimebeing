@@ -5,4 +5,6 @@
 layout: home
 ---
 
-welcome to talesofatimebeing, a place where I am trying to let all my thoughts go.
+welcome to talesofatimebeing, a place where I am trying to let all my thoughts go. 
+
+The name is based off the book "tales for the time beng" by ruth ozeki. 
