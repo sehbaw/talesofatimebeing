@@ -10,7 +10,7 @@
         <meta name="author" content="sebs">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href={{ "/assets/main.css" | relative_url }}>
+        <link rel="stylesheet" href={{"style.css" | relative_url }}>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
@@ -24,16 +24,11 @@
             <div id="noise"></div>
             <div class="navlinks">
                 
-                <h1 class="sidebar-content title"><a href={{"" | relative_url}}>cd ~/blog</a></h1>
-                </p
+                <!--<h1 class="sidebar-content title">-->
+                    <a href={{"" | relative_url}}>talesofatimebeing</a>
+                </p>
             
-                <a href={{"/archive" | relative_url}} class="sidebar-content">Archive</a>
-                <h3>Categories:</h3>
-                    {% for category in site.categories %}
-                    {% assign cat = category | first | slugify %}
-                    {% assign link = "/category/" | append: cat | append: "/index.html" %}
-                    <a class="tag" href={{ link | relative_url }}>{{ category | first }}</a>
-                    {% endfor %}
+    
                 
             </div>
 
