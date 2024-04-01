@@ -1,50 +1,21 @@
-<html>
-
-    <head>
-
-        <title>talesofatimebeing</title>
-
-        <meta charset="UTF-8">
-        <meta name="description" content="blog">
-        <meta name="keywords" content="blog, thoughts">
-        <meta name="author" content="sebs">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <link rel="stylesheet" href={{"style.css" | relative_url }}>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
-        
-    </head>
-
-    <body>
-
-        <div id="navbar">
-
-            <div id="noise"></div>
-            <div class="navlinks">
-                
-                <!--<h1 class="sidebar-content title">-->
-                    <a href={{"" | relative_url}}>talesofatimebeing</a>
-                </p>
-            
-    
-                
-            </div>
-
-        </div>
-        <div id="scrollview">
-
-            {{content}}
-
-        </div>
-
-        <div id="footer">
-
-         
-        </div>
-        
-    </body>
-
-
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/style.css">
+  </head>
+  <body>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/blog/">Blog</a>
+    </nav>
+    <h1>{{ page.title }}</h1>
+    <section>
+      {{ content }}
+    </section>
+    <footer>
+      &copy; to me
+    </footer>
+  </body>
 </html>
