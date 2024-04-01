@@ -1,3 +1,17 @@
 :root {
     --colorBackground: #000000;
   }
+
+  body{
+    background-color: var(--colorBackground);
+    background-repeat: no-repeat;
+    background-size: 20vw auto;
+    background-attachment: fixed;
+    background-position: 0% 60%;
+    color: #ffffff;
+
+}
+
+a:hover {
+    color:rgb(153, 6, 215);
+}
