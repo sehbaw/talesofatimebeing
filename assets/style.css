@@ -1,5 +1,3 @@
-
-
-main {
-    background-color: #000000
-}
+:root {
+    --colorBackground: #000000;
+  }
