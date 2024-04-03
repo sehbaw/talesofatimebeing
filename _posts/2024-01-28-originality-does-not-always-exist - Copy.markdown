@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "Technology isn't about originality but moreso about power"
 date:   2024-02-08 21:21:38 -0500
 categories: tech
