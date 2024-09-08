@@ -9,9 +9,11 @@ in this day, in this age we are taught that we must be a master of one: one thin
 
 Because of this "master of one" mentality there are: 
 - this many people who do not know how to do this
-- tthis many people who do not know how to do this other thing
+- this many people who do not know how to do this other thing
 - this many people who donot know how to do this one thing
 - another one
 - another one
+
+this is endless, because we are taught by closing other doors, we are keeping open the one that matters..shouldn't they all matter?
 
 It's this kind of mentality that people write off many people, reinforcing classism and contributing to this idea that if you only know engineering things that people 
