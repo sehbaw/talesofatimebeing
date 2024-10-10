@@ -7,8 +7,8 @@ title: devlog
   {% if site.logs[0] %}
 
     {% capture currentyear %}{{ 'now' | date: "%Y" }}{% endcapture %}
-    {% capture firstpostyear %}{{ site.logs[0].date | date: '%Y' }}{% endcapture %}
-    {% if currentyear == firstpostyear %}
+    {% capture firstlogyear %}{{ site.logs[0].date | date: '%Y' }}{% endcapture %}
+    {% if currentyear == firstlogyear %}
         <h3>This year's logs</h3>
     {% else %}  
         <h3>{{ firstpostyear }}</h3>
